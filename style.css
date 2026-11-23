@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f3ed;
+  color: #252525;
+  font: 16px/1.5 system-ui, sans-serif;
+}
+
+main {
+  max-width: 56rem;
+  margin: 3rem auto;
+  padding: 0 1.25rem;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+button, input {
+  font: inherit;
+}
+
+button {
+  padding: 0.45rem 0.8rem;
+  cursor: pointer;
+}
+
+.hint {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+#status {
+  min-height: 1.5em;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  min-height: 24rem;
+  margin-top: 0.4rem;
+  padding: 1rem;
+  border: 1px solid #777;
+  border-radius: 0.25rem;
+  background: white;
+  color: inherit;
+  font: inherit;
+  resize: vertical;
+}

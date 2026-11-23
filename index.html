@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>in-Quarto</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>in-Quarto</h1>
+    <p>Upload a plain text file or write directly below.</p>
+    <div class="actions">
+      <label for="file">Open a text file</label>
+      <input id="file" type="file" accept=".txt,text/plain">
+      <button id="save" type="button">Download text</button>
+    </div>
+    <p class="hint">Files are read in your browser and are not uploaded to a server. Opening a file replaces the text below.</p>
+    <p id="status" role="status" aria-live="polite"></p>
+    <label for="text">Your text</label>
+    <textarea id="text" placeholder="Write or paste your text here..."></textarea>
+  </main>
+</body>
+</html>
